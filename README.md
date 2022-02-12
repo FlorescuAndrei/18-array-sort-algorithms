@@ -10,3 +10,5 @@ O(nlog<sub>2</sub>n)
 O(n2)  - Quadratic
 
 Normally each loop corresponds to n : &emsp;   for() =>O(n);  for(for()) => O(n2)
+
+n<up>2</up> x
