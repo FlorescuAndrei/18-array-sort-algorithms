@@ -18,7 +18,7 @@ In-place vs Not in-place:
 -  Not in-place use additional arrays, consume more memory.
   
   
-Bubble Sort  
+**Bubble Sort**  
   Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order.  
       
   -  In-place algorithm
@@ -26,7 +26,7 @@ Bubble Sort
   -  Stable sort algorithm
   -  Algorithm degrades quickly.
   
-Selection Sort   
+**Selection Sort**   
   Selection sort is a sorting algorithm that selects the biggest element from an unsorted list in each iteration and places that element at the end of the unsorted list.   
   Will usually perform better then bubble sort.  
   -  In-place algorithm.
@@ -35,14 +35,14 @@ Selection Sort
   -  Doesn't required as much swapping as bubble sort.  
   
   
-Insertion Sort   
+**Insertion Sort**   
   Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time.   
   -  In-place algorithm.
   -  O(n<sup>2</sup>) time complexity - quadratic.
   -  Stable algorithm.
  
  
-Merge Sort   
+**Merge Sort**   
   -  Divide and conquer algorithm.
   -  Recursive algorithm.   
   -  Two phases: Splitting and Merging. 
@@ -52,7 +52,7 @@ Merge Sort
  
  
  
-Quick Sort   
+**Quick Sort**   
   -  Divide and conquer algorithm.
   -  Recursive algorithm.   
   -  Use a pivot element to partition the array into two parts: elements < pivot to its left, element < pivot to its right. Pivot will then be in its correct sorted position.
