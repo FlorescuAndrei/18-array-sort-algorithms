@@ -9,4 +9,4 @@ O(n) – Linear  (diagonala)
 O(nlog<sub>2</sub>n)  
 O(n2)  - Quadratic
 
-Normally each loop corresponds to n   for() =>O(n);  for(for()) => O(n2)
+Normally each loop corresponds to n :    for() =>O(n);  for(for()) => O(n2)
