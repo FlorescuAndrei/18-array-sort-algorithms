@@ -12,7 +12,8 @@ O(n<sup>2</sup>) &emsp; &emsp; - Quadratic
 Normally each loop corresponds to n : &emsp;   for() =>O(n); &emsp; for(for()) => O(n2).  
   
 Stable vs Unstable sort:  
--  Stable: original ordering when there are duplicates will be preserved.  
+-  Stable: original ordering when there are duplicates will be preserved. 
+ 
 In-place vs Not in-place:  
 -  Not in-place use additional arrays, consume more memory.
   
