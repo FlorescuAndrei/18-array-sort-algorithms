@@ -3,11 +3,11 @@ Algorithm Theory and Big O.
 Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort
 
 Big O – number of step to perform for an algorithm  
-O(1)  0 of 1 &emsp;&emsp; – Constant time complexity  
+O(1)  0 of 1 &emsp; – Constant time complexity  
 O(log<sub>2</sub>n)	&emsp; - Logaritmic  
 O(n) &emsp;&emsp;&emsp; – Linear  (diagonala)  
 O(nlog<sub>2</sub>n)  
-O(n<sup>2</sup>)  &emsp; - Quadratic
+O(n<sup>2</sup>) &emsp; &emsp; - Quadratic
 
 Normally each loop corresponds to n : &emsp;   for() =>O(n); &emsp; for(for()) => O(n2).  
   
