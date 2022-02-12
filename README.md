@@ -7,8 +7,7 @@ O(1)  0 of 1 – Constant time complexity
 O(log<sub>2</sub>n)	- Logaritmic  
 O(n) – Linear  (diagonala)  
 O(nlog<sub>2</sub>n)  
-O(n2)  - Quadratic
+O(n<sup>2</sup>)  - Quadratic
 
 Normally each loop corresponds to n : &emsp;   for() =>O(n);  for(for()) => O(n2)
 
-n<sup>2</sup> x
