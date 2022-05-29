@@ -58,7 +58,7 @@ In-place vs Not in-place:
   -  Use a pivot element to partition the array into two parts: elements < pivot to its left, element < pivot to its right. Pivot will then be in its correct sorted position.
   -  In-place algorithm.
   -  O(nlog<sub>2</sub>n). &emsp; Repeteadly partitioning the array into two halves
-  -  Untable algorithm.
+  -  Unstable algorithm.
   
 
 
