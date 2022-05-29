@@ -55,7 +55,7 @@ In-place vs Not in-place:
 **Quick Sort**   
   -  Divide and conquer algorithm.
   -  Recursive algorithm.   
-  -  Use a pivot element to partition the array into two parts: elements < pivot to its left, element < pivot to its right. Pivot will then be in its correct sorted position.
+  -  Use a pivot element to partition the array into two parts: elements < pivot to its left, elements > pivot to its right. Pivot will then be in its correct sorted position.
   -  In-place algorithm.
   -  O(nlog<sub>2</sub>n). &emsp; Repeteadly partitioning the array into two halves
   -  Unstable algorithm.
