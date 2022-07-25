@@ -36,7 +36,8 @@ In-place vs Not in-place:
   
   
 **Insertion Sort**   
-  Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time.   
+  Insertion sort (virtually) partitions the array into sorted and unsorted partitions like selection sort.   
+  It starts out by saying that the element at position 0 is in sorted partition in the correct position. Takes the next element (first element from the unsorted partition) and inserts it in the sorted partition in the correct position moving elements one position to the right.
   -  In-place algorithm.
   -  O(n<sup>2</sup>) time complexity - quadratic.
   -  Stable algorithm.
