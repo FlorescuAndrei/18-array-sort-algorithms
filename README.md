@@ -27,7 +27,7 @@ In-place vs Not in-place:
   -  Algorithm degrades quickly.
   
 **Selection Sort**   
-  Selection sort is a sorting algorithm that selects the biggest element from an unsorted list in each iteration and places that element at the end of the unsorted list.   
+  Selection sort is a sorting algorithm that selects the biggest element from an unsorted list in each iteration and places that element at the end of the unsorted list swapping it with the last element.   
   Will usually perform better then bubble sort.  
   -  In-place algorithm.
   -  O(n<sup>2</sup>) time complexity - quadratic.
@@ -37,7 +37,7 @@ In-place vs Not in-place:
   
 **Insertion Sort**   
   Insertion sort (virtually) partitions the array into sorted and unsorted partitions like selection sort.   
-  It starts out by saying that the element at position 0 is in sorted partition in the correct position. Takes the next element (first element from the unsorted partition) and inserts it in the sorted partition in the correct position moving elements one position to the right.
+  It starts out by saying that the element at position 0 is in the sorted partition. In each iteration takes the first element from the unsorted partition (next element) and inserts it in the sorted partition at the correct position moving elements one position to the right.
   -  In-place algorithm.
   -  O(n<sup>2</sup>) time complexity - quadratic.
   -  Stable algorithm.
