@@ -52,7 +52,11 @@ public class MergeSort {
 
         //handling the remaining elements.
         // Second optimization, if we have elements in the second (right) array we do not copy in temp array, they are already bigger.
+        
+        //copy leftover elements from the left array. No need to copy them into temp array and back 
         System.arraycopy(input, i, input, start + tempIndex, mid-i);
+        
+        //copy over the temp array
         System.arraycopy(temp, 0, input, start, tempIndex);
 
 
